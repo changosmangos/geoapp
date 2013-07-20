@@ -20,7 +20,7 @@ function initialize(lat,lon){
     var myOptions = {
         zoom: 8,
         center: latlng,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        mapTypeId: google.maps.MapTypeId.SATELLITE
     };
     var map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
     //Marcador
